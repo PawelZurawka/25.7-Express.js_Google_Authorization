@@ -1,0 +1,28 @@
+body {
+  display: block;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.button {
+  text-decoration: none;
+  background-color: #061f58;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.button:hover {
+  border: 2px solid red;
+}
+
+.userName {
+  font-family: "Open Sans", sans-serif;
+}
